@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <title>Interno</title>
+</head>
+<body class="bg-gray-100">
+  <!-- start header -->
+  <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white ">
+    <div class="container mx-auto flex justify-between items-center w-[90%]">
+      <div class="kem">
+        <i class="ri-arrow-up-circle-fill"></i>
+     </div>
+      <!-- logo -->
+      <a href="">
+        <img src="asset/assets/logo.svg" class="select-none" alt="">
+      </a>
+      <!-- nav -->
+      <nav class="">
+        <!-- nav mobile triger -->
+        <div class="cursor-pointer lg:hidden" id="nav_trigger_btn">
+          <i class="ri-menu-4-line text-4xl"></i>
+        </div>
+        <ul class="fixed w-full bg-white overflow-hidden top-[90-px] left-[0px] right-0
+        flex flex-col gap-4 lg:flex-row lg:p-0 lg:top-0 border-none lg:h-full lg:relative 
+        transition-all duration-300 h-0 p-0 bg-transparent overflow-hidden " id="nav-menu">
+          <li class="  lg:h-[90px] lg:flex lg:justify-center lg:items-center rounded-[6px] lg:py-8 loopo" id="saad">
+            <a class="pl-[30px] pr-[30px] " href="#home" >Home</a></li>
+          <li  class=" lg:h-[90px] lg:flex lg:justify-center lg:items-center rounded-[6px] lg:py-8 loopo" id="saad">
+            <a  class="pl-[30px] pr-[30px] " href="#about">About</a></li>
+          <li  class="lg:h-[90px] lg:flex lg:justify-center lg:items-center rounded-[6px] lg:py-8 loopo"  id="saad">
+            <a  class="pl-[30px]  pr-[30px] " href="#testmonials">Testimonials</a></li>
+          <li  class="lg:h-[90px] lg:flex lg:justify-center lg:items-center rounded-[6px] lg:py-8 loopo" id="saad">
+            <a  class="pl-[30px]  pr-[30px] " href="#work">Our Work</a></li>
+          <li class="lg:h-[90px] lg:flex lg:justify-center lg:items-center rounded-[6px] lg:py-8 loopo" id="saad">
+            <a  class="pl-[30px]  pr-[30px]" href="#news">News</a></li>
+          <li  class="lg:h-[90px] lg:flex lg:justify-center lg:items-center rounded-[6px] lg:py-8 loopo" id="saad">
+            <a  class="pl-[30px]  pr-[30px]" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--end header -->
+    <!--start wraper -->
+  <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
+    <!-- grid img -->
+    <div class="lg:bg-grid lg:bg-center lg:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10">
+    
+    </div>
+    <!-- start hero -->
+    <section class="hero h-[550px] lg:h-[645px]  bg-center bg-cover bg-no-repeat 
+    bg-fixed lg:rounded-bl-[290px] relative z-20"  id="home">
+        <div class="container mx-auto h-full flex items-center justify-center lg:justify-start w-[80%]">  <!--mx-auto means margin-right and left auto and it used to center the element-->
+         <!-- text -->
+         <div class="hero__text w-[567px] flex flex-col items-center text-center
+          lg:text-left lg:items-start justify-center relative">
+        <h1 class="main-head lg:text-left md:text-center sm:text-center mb-8 lg:ml-[25px]">Let Your Home Be Unique</h1>
+       <p class="mb-8 leading-9 text-[#977] lg:ml-[25px]"> There are many variations of the passages of lorem Ipsum from available,variations of the passages.</p>
+       <button class="  btn px-8 bg-[#003] text-white py-4 rounded-[15px] lg:mx-0 hover:bg-[white] hover:text-[black]
+        transition-all lg:ml-[35px]">Get free estimation
+        <i class="ri-arrow-right-line text-[#f59e0b] "></i>
+       </button>
+         </div> <!--items center refers to align items center in flex-->
+        </div>
+     </section>
+     <!--end hero -->
+
+
+    <!-- start steps -->
+<section class="steps mt-[80px] lg:mt-[200px] relative z-20  ">
+  <div class="container mx-auto w-[80%] ">
+    <!-- grid items -->
+    <div class=" grid grid-cols-1 gap-12 lg:grid-cols-3">
+      <!-- step 1 -->
+      <div class=" steps__step text-center ">
+        <div>
+          <i class="ri-compasses-2-line text-5xl text-[#a16207] "></i>
+        </div>
+        <h3 style="font-size: 1.1rem; font-weight: bold;">Project Planning</h3>
+        <p class="mb-5 max-w-[80%] mx-auto "> There are many variations of the passages of lorem Ipsum 
+          from available, majority.</p>
+          <a href="#" class="font-medium fex justify-center gap-2 hover:text-[#db2777]">Read more
+        <i class="ri-arrow-right-line"></i>
+          </a>
+      </div>
+      <!-- step 2-->
+      <div class=" steps__step text-center ">
+        <div>
+          <i class="ri-magic-line text-5xl text-[#a16207] "></i>
+        </div>
+        <h3 style="font-size: 1.1rem; font-weight: bold;"> Gaining Materials</h3>
+        <p class="mb-5 max-w-[80%] mx-auto "> There are many variations of the passages of lorem Ipsum 
+          from available, majority.</p>
+          <a href="#" class="font-medium fex justify-center gap-2 hover:text-[#db2777]">Read more
+        <i class="ri-arrow-right-line"></i>
+          </a>
+      </div>
+      <!-- step 3 -->
+      <div class=" steps__step text-center ">
+        <div>
+          <i class="ri-tools-line text-5xl text-[#a16207] "></i>
+        </div>
+        <h3 style="font-size: 1.1rem; font-weight: bold;">Project Execution</h3>
+        <p class="mb-5 max-w-[80%] mx-auto "> There are many variations of the passages of lorem Ipsum 
+          from available, majority.</p>
+          <a href="#" class="font-medium fex justify-center gap-2 hover:text-[#db2777]">Read more
+        <i class="ri-arrow-right-line"></i>
+          </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- end steps -->
+
+
+    <!-- start about -->
+    <section class="about mt-[80px] lg:mt-[200px] relative z-20 " id="about">
+      <div class="container mx-auto w-[80%] lg:px-0">
+    <div class="flex flex-col xl:flex-row text-center lg:text-left justify-between items-center
+    gap-8 xl:gap-[74px]">
+      <!-- text -->
+      <div class="flex flex-1  order-2 xl:order-none flex-col text-center xl:text-left about__text">
+   <h2 style="font-size: 1.5rem; letter-spacing: 2px; line-height: 1.7;" class="mb-[15px] font-bold">We Create The Art Of Stylish Living Stylishly</h2>
+   <p class="text-[#997]" style="line-height: 1.9;">About Interno Furniture Store:
+
+    Welcome to Interno Furniture Store, where we redefine home living. At Interno, we believe that furniture isn't just about functionality; it's about creating spaces that reflect your style, personality, and comfort. Our curated collection combines contemporary designs with timeless elegance to elevate every corner of your home. Whether you're seeking sleek minimalism, rustic charm, or eclectic vibrancy, Interno has something to inspire every taste. With a commitment to quality craftsmanship and exceptional customer
+     service, we invite you to embark on a journey of interior transformation with Interno Furniture Store.</p>
+     <!-- phone -->
+     <div class="flex justify-center items-center  xl:flex-row xl:justify-start">
+      <div class="w-[53px] h-[53px] bg-[#fed7aa] rounded-full flex justify-center items-center mx-[10px] mb-[10px] xl:mb-none
+      mt-[20px] xl:mt-none ">
+        <i class="ri-phone-fill text-[#a16207] text-3xl "></i>
+      </div>
+      <div class="mx-[10px] mb-[10px] xl:mb-none mt-[20px] xl:mt-none  mt-[20px] xl:mt-none">
+        <div class="text-2xl font-bold tracking-widest">+20 1556477029</div>
+        <div class="text-xl text-[#997]">Call Us Any Time</div>
+      </div>
+     </div>
+     <!-- btn -->
+     <button class=" group btn px-8 bg-[#003] text-white py-4 rounded-[15px] lg:mx-0 hover:bg-[#eab308] hover:text-[black]
+     transition-all lg:ml-[35px] sm:max-w-[95%]   mx-auto mt-[15px] xl:max-w-[50%]"> Get free estimation
+     <i class="ri-arrow-right-line text-[#4ade80] group-hover:text-white "></i></button>
+      </div>
+      <!-- img -->
+      <div class=" max-w-[453px]  about__img order-1 xl:order-none mx-auto  xl:mx-0 about__img">
+        <img src="asset/assets/about/img.png" alt="" class="select-none">
+      </div>
+    </div>
+      </div>
+    </section>
+    <!-- end about -->
+  <!-- start testmonials -->
+  <section class="testmonials mt-[80px] lg:mt-[200px] relative z-20" id="testmonials">
+    <h2 class="text-center text-2xl font-bold mb-[25px] tracking-widest test testimonial__title">What clients say</h2>
+    <div class="testmonial__bg container mx-auto w-[80%] bg-[#fef3c7] rounded-[70px] px-6 ">
+    <!-- slider -->
+    <div class="w-full">
+    <div class="testmonial__slider swiper h-[400px]">
+    <div class="swiper-wrapper">
+      <!-- slide1 -->
+      <div class="swiper-slide w-full">
+        <!-- item -->
+        <div class=" testmonial__item  max-w-[370px] h-[340px] bg-white 
+         rounded-[30px] flex flex-col  p-9 mx-auto justify-center overflow-hidden">
+        <div class="flex  gap-4 mb-6 rounded-[10px] item">
+          <img src="asset/assets/testimonial/01.png" alt="">
+          <div>
+            <h3 class="text-xl font-bold ">Nattasha Mith</h3>
+            <div class="text-[#997]">Greenville, USA</div>
+          </div>
+        </div>
+        <p class="">Lorem Ipsum is simply dummy 
+          text of the typesetting industry. 
+          Ipsum has been.</p>
+        </div>
+      </div>
+      <!-- slide 2 -->
+      <div class="swiper-slide w-full">
+        <!-- item -->
+        <div class=" testmonial__item  max-w-[370px] h-[340px] bg-white 
+         rounded-[30px] flex flex-col  p-9 mx-auto justify-center overflow-hidden">
+        <div class="flex gap-4 mb-6 rounded-[10px] item">
+          <img src="asset/assets/testimonial/02.png" alt="">
+          <div>
+            <h3  class="text-xl font-bold ">Jessica White</h3>
+            <div class="text-[#997]">Oak Ridge, USA</div>
+          </div>
+        </div>
+        <p class="">Lorem Ipsum is simply dummy 
+          text of the typesetting industry. 
+          Ipsum has been.</p>
+        </div>
+      </div>
+      <!-- slide 3 -->
+      <div class="swiper-slide w-full">
+        <!-- item -->
+        <div class=" testmonial__item  max-w-[370px] h-[340px] bg-white 
+         rounded-[30px] flex flex-col  p-9 mx-auto justify-center overflow-hidden">
+        <div class="flex gap-4 mb-6 rounded-[10px] item">
+          <img src="asset/assets/testimonial/03.png" alt="">
+          <div>
+            <h3  class="text-xl font-bold ">Mike Davis</h3>
+            <div class="text-[#997]">Berlin, Germany</div>
+          </div>
+        </div>
+        <p class="">Lorem Ipsum is simply dummy 
+          text of the typesetting industry. 
+          Ipsum has been.</p>
+        </div>
+      </div>
+      <!-- slide 4 -->
+      <div class="swiper-slide w-full">
+        <!-- item -->
+        <div class=" testmonial__item  max-w-[370px] h-[340px] bg-white 
+         rounded-[30px] flex flex-col  p-9 mx-auto justify-center overflow-hidden">
+        <div class="flex  gap-4 mb-6 rounded-[10px] item">
+          <img src="asset/assets/testimonial/04.png" alt="">
+          <div>
+            <h3  class="text-xl font-bold ">Olivia Wilson</h3>
+            <div class="text-[#997]">Blue Ridge, France</div>
+          </div>
+        </div>
+        <p class="">Lorem Ipsum is simply dummy 
+          text of the typesetting industry. 
+          Ipsum has been.</p>
+        </div>
+      </div>
+    </div>
+    <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- end testmonials -->
+  
+
+  <!-- start brands -->
+  <section
+   class="brands mt-[80px] lg:mt-[150px] relative z-20">
+   <div class="container mx-auto w-[80%]">
+    <div>
+      <h2 class="text-2xl mb-[30px] text-center bobo tracking-widest">Brands We Deal With</h2>
+    </div>
+     <div class="flex flex-col xl:flex-row justify-between items-center gap-12">
+      <img class="brands__image" src="asset/assets/brands/01.svg" class="select-none" alt="">
+      <img  class="brands__image"  src="asset/assets/brands/02.svg" class="select-none" alt="">
+      <img class="brands__image"  src="asset/assets/brands/03.svg" class="select-none" alt="">
+      <img class="brands__image"  src="asset/assets/brands/04.svg" class="select-none" alt="">
+      <img class="brands__image"  src="asset/assets/brands/05.svg" class="select-none" alt="">
+     </div>
+   </div>
+  </section>
+  <!-- end brands -->
+  <!-- start work -->
+<section class="work mt-[80px] lg:mt-[150px] relative z-20" id="work">
+  <div class="container mx-auto w-[80%] xl:px-0">
+    <div>
+      <h2 class="work__title text-2xl font-bold text-center mb-[45px] tracking-widest">Follow Our Projects</h2>
+    </div>
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- slide 1-->
+        <div class="swiper-slide">
+          <img src="asset/assets/work/01.png" alt="" class=" select-none overflow-hidden  flex flex-col items-center  hover:scale-[1.05] cursor-pointer">
+          <div class="flex justify-between items-center w-full">
+            <div  class="mt-[10px]">
+              <h3 class="text-xl font-bold ">Modern Kitchen</h3>
+              <p class="text-[#997]">Decor/Architecture</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide 2-->
+        <div class="swiper-slide">
+          <img src="asset/assets/work/02.png" alt="" class="select-none overflow-hidden  flex flex-col items-center hover:scale-[1.05] cursor-pointer">
+          <div class="flex justify-between items-center w-full">
+            <div  class="mt-[10px]">
+              <h3 class="text-xl font-bold ">Modern Wardrobe</h3>
+              <p class="text-[#997]">Decor/Architecture</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide 3-->
+        <div class="swiper-slide">
+          <img src="asset/assets/work/03.png" alt="" class=" select-none overflow-hidden  flex flex-col items-center  hover:scale-[1.05] cursor-pointer">
+          <div class="flex justify-between items-center w-full">
+            <div  class="mt-[10px]">
+              <h3 class="text-xl font-bold ">Modern Desk</h3>
+              <p class="text-[#997]">Decor/Architecture</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide 4-->
+        <div class="swiper-slide">
+          <img src="asset/assets/work/04.png" alt="" class=" select-none overflow-hidden  flex flex-col items-center  hover:scale-[1.05] cursor-pointer ">
+          <div class="flex justify-between items-center w-full">
+            <div class="mt-[10px]">
+              <h3 class="text-xl font-bold ">Living Room</h3>
+              <p class="text-[#997]">Decor/Architecture</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</section>
+  <!-- end work -->
+<!-- start stats -->
+ <section class="stats  mt-[80px] lg:mt-[150px] relative z-20 bg-[#ececec] py-[80px]
+ xl:py-[150px] " >
+  <div class="container mx-auto w-[80%]">
+    <h2 class="text-3xl tracking-widest text-center mb-[50px] lolo absolute
+     top-[30px] xl:top-[50px] left-[50%]  stats__title" style="transform: translate(-50% , -50%);">Our stats</h2>
+  <!-- grid -->
+  <div class="grid grid-cols-1 xl:grid-cols-4 ">
+    <!-- grid-item 1-->
+    <div class=" stats__item text-center  xl:border-r xl:border-[#c2410c]">
+      <h3 class="text-2xl text-[#c2410c]">12</h3>
+      <p>Years Of Experience</p>
+    </div>
+    <!-- grid-item 2 -->
+    <div class=" stats__item text-center  xl:border-r xl:border-[#c2410c]">
+      <h3 class="text-2xl text-[#c2410c]">85</h3>
+      <p>Projects Completed</p>
+    </div>
+    <!-- grid-item 3-->
+    <div class=" stats__item text-center  xl:border-r xl:border-[#c2410c]">
+      <h3 class="text-2xl text-[#c2410c]">15</h3>
+      <p>Active Projects</p>
+    </div>
+    <!-- grid-item 4-->
+    <div class=" stats__item text-center ">
+      <h3 class="text-2xl text-[#c2410c]">95</h3>
+      <p>Happy Customers</p>
+    </div>
+  </div>
+  </div>
+ </section>
+<!-- end stats -->
+
+
+
+<!-- start news -->
+
+<section class="news mt-[80px] lg:mt-[150px] relative z-20" id="news">
+  <div class="container mx-auto w-[80%]">
+    <div class="text-center">
+      <h2 class="text-3xl mb-[30px] tracking-widest zozo">Our News</h2>
+    </div>
+  <!-- grid -->
+  <div class="news__grid grid grid-cols-1 xl:grid-cols-3 gap-[27px]">
+    <!-- grid  item 1-->
+    <div class="news__item group w-full max-w-[382px] h-[520px]  rounded-[62px]
+   transition-all cursor-pointer mx-auto xl:mx-0 bg-white hover:bg-[#f1f5f9]" style=" box-shadow: 
+   rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, 
+   rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;;">
+  <img src="asset/assets/news/01.png" class=" select-none w-full mb-5" alt="">
+  <div class="flex flex-col gap-[30px]">
+    <h3 class="text-xl ml-[10px]">Let’s Get Solution For Building Construction Work</h3>
+    <div class="flex items-center justify-between">
+      <p class="text-base ml-[10px]">22 June,2024</p>
+      <button class="w-[52px] h-[52px] rounded-full group-hover:bg-white 
+      transition-all  bg-[#ececec] mr-[10px]">
+      <i class="ri-arrow-right-s-line text-3xl pl-1 "></i>
+      </button>
+    </div>
+  </div>
+</div>
+    <!-- grid  item 2 -->
+    <div class="news__item group w-full max-w-[382px] h-[520px]  rounded-[62px]
+   transition-all cursor-pointer mx-auto xl:mx-0 bg-white hover:bg-[#f1f5f9]" style=" box-shadow: 
+   rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, 
+   rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;;">
+  <img src="asset/assets/news/02.png" class=" select-none w-full mb-5" alt="">
+  <div class="flex flex-col gap-[30px]">
+    <h3 class="text-xl ml-[10px]">Low Cost Latest Invented Interior Designing
+      Ideas.</h3>
+    <div class="flex items-center justify-between">
+      <p class="text-base ml-[10px]"> 24 June,2024</p>
+      <button class="w-[52px] h-[52px] rounded-full group-hover:bg-white 
+      transition-all  bg-[#ececec] mr-[10px]">
+      <i class="ri-arrow-right-s-line text-3xl pl-1 "></i>
+      </button>
+    </div>
+  </div>
+</div>
+    <!-- grid  item 3-->
+    <div class="news__item group w-full max-w-[382px] h-[520px]  rounded-[62px]
+   transition-all cursor-pointer mx-auto xl:mx-0 bg-white hover:bg-[#f1f5f9]" style=" box-shadow: 
+   rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, 
+   rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;;">
+  <img src="asset/assets/news/03.png" class=" select-none w-full mb-5" alt="">
+  <div class="flex flex-col gap-[30px]">
+    <h3 class="text-xl ml-[10px]">Best For Any Office & Business Interior 
+      Solution</h3>
+    <div class="flex items-center justify-between">
+      <p class="text-base ml-[10px]">28 June,2024      </p>
+      <button class="w-[52px] h-[52px] rounded-full group-hover:bg-white 
+      transition-all  bg-[#ececec] mr-[10px]">
+      <i class="ri-arrow-right-s-line text-3xl pl-1 "></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+  </div>
+  </div>
+</section>
+<!-- end news -->
+
+
+<!-- start contact -->
+<section class="contact mt-[80px] lg:mt-[150px] relative z-20" id="contact">
+    <div class="container mx-auto w-[80%] contact__container bg-[#222] rounded-[70px] 
+    py-[80px]">
+     <div class="contact__text max-w-[640px] mx-auto text-center">
+      <h2 class="text-white text-3xl ml-[13px] mb-4">Do you want to join Interno?</h2>
+    <button class="bg-[#ca8a04] px-8 py-3 rounded-[15px] text-white tracking-widest hover:bg-[#a16207]
+    mt-[25px] contact-btn">Contact Us
+      <i class="ri-arrow-right-line text-[#222]"></i>
+    </button>
+     </div>
+    </div>
+</section>
+<!-- end contact -->
+
+
+<!-- start footer -->
+  <footer class="footer mt-[80px] lg:mt-[150px] relative z-20 ">
+    <div class="container mx-auto w-[80%] px-0 ">
+    <div class="flex flex-col xl:flex-row xl:gap-[100px] xl:mb-[150px]">
+      <!-- item 1 -->
+      <div class="footer__item w-full max-w-[400px] mx-auto mb-8 text-center xl:text-left
+       ">
+        <!-- logo -->
+        <a href="" class="flex justify-center xl:justify-start mb-8">
+          <img src="asset/assets/logo.svg" class="select-none" alt="">
+        </a>
+  <!-- socials -->
+  <ul class="text-[#333] flex gap-[54px] justify-center xl:justify-start ">
+    <li class=""><a class="text-2xl text-[#1d4ed8]" href=""><i class="ri-facebook-fill"></i></a></li>
+    <li class=""><a class="text-2xl text-[#22d3ee]" href=""><i class="ri-twitter-fill"></i></a></li>
+    <li class=""><a class="text-2xl text-[#1d4ed8]" href=""><i class="ri-linkedin-fill"></i></a></li>
+    <li class=""><a class="text-2xl text-[#7e22ce]" href=""><i class="ri-instagram-fill"></i></a></li>
+  </ul>
+      </div>
+
+
+
+      <!-- item 2 -->
+      <div  class="flex-1 flex flex-col xl:flex-row text-center xl:text-left gap-12 xl:gap-[100px]
+      xl:justify-end">
+      <div class="footer__items">
+        <h3 class="text-xl mb-3 tracking-widest">Pages</h3>
+        <ul class="flex flex-col gap-4">
+          <li  class="hover:text-[#ca8a04]"><a href="">About Us</a></li>
+          <li  class="hover:text-[#ca8a04]"><a href="">testmonials</a></li>
+          <li  class="hover:text-[#ca8a04]"><a href="">Our Work</a></li>
+          <li  class="hover:text-[#ca8a04]"><a href="">News</a></li>
+          <li  class="hover:text-[#ca8a04]"><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__items">
+        <h3 class="text-xl mb-3 tracking-widest">services</h3>
+        <ul class="flex flex-col gap-4">
+          <li class="hover:text-[#ca8a04]"><a href="">Kitchens</a></li>
+          <li  class="hover:text-[#ca8a04]"><a href="">Living Area</a></li>
+          <li  class="hover:text-[#ca8a04]"><a href="">Bathroom</a></li>
+          <li  class="hover:text-[#ca8a04]"><a href="">Bedroom</a></li>
+          <li  class="hover:text-[#ca8a04]"><a href="">Desks</a></li>
+        </ul>
+      </div>
+      <div class="footer__items max-w-[260px] mx-auto xl:mx-0">
+        <h3 class="text-xl mb-3 tracking-widest">Contact</h3>
+        <div class="flex flex-col gap-6 text-[20px] ">
+          <p>55 East Birchwood Ave. Brooklyn, New York 11201</p>
+          <p>contact@interno.com</p>
+          <p>(123) 456 - 7890</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!-- copy right -->
+    <p class="footer-copy text-center text-lg py-10 bg-white xl:border-t">Copyright &copy; interno 2024. All rights reserved. by <span class="text-[#ca8a04] hover:text-[#ef4444]">Saad Yasser</span></p>
+  </footer>
+
+<!-- end footer -->
+  </main>
+    <!--end  wraper -->
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/saad.js"></script>
+</body>
+</html>
